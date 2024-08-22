@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",  // Directory for TypeScript output
+    "outDir": "./dist", // Directory for TypeScript output
     "module": "commonjs",
     "target": "es6",
-    "allowJs": true         // Allow JavaScript files to be compiled
-},
-"include": [
-    "ts/**/*"           // Include all TypeScript files in the src/ts folder
-]
+    "allowJs": true // Allow JavaScript files to be compiled
+  },
+  "include": [
+    "ts/claude_api.ts",
+    "ts/env.ts",
+    "ts/tools.ts",
+  ]
 }

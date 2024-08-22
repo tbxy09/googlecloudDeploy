@@ -28,6 +28,8 @@ export const env = {
   // The topic must be in the same GCP project as the Chat app.
   topic: 'events-api',
 
+  // * [models](https://docs.anthropic.com/en/docs/models-overview) for additional
+
   model: 'gemini-1.5-pro-preview-0409',
   modelathaiku:'claude-3-haiku@20240307',
   modelatsonnet:'claude-3-sonnet@20240229',
@@ -35,6 +37,7 @@ export const env = {
   model_opus: 'claude-3-opus-20240229',
   model_sonnet: 'claude-3-sonnet-20240229',
   model_haiku: 'claude-3-haiku-20240307',
+  model_sonnet_35: 'claude-3-5-sonnet-20240620',
   // modelvision: '2023-03-16-preview',
 
   // Whether to log the request & response on each function call.

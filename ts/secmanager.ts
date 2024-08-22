@@ -15,9 +15,8 @@
     // Extract the payload as a string.
     const payload = version.payload.data.toString();
 
-    // console.info(`Plaintext: ${payload}`);
-    // set to the env ANTHROPIC_API_KEY
-    process.env.ANTHROPIC_API_KEY = payload;
+    // Output for sourcing
+    console.log(`export ANTHROPIC_API_KEY="${payload}"`);
   }
 
-  // accessSecretVersion();  
+  accessSecretVersion();  
